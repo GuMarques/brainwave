@@ -10,7 +10,6 @@ import {
   facebook,
   protopie,
   raindrop,
-  yourlogo,
   roadmap1,
   roadmap2,
   roadmap3,
@@ -23,6 +22,11 @@ import {
   sliders04,
   chromecast,
   plusSquare,
+  logoipsum1,
+  logoipsum2,
+  logoipsum3,
+  logoipsum4,
+  logoipsum5,
   recording01,
   recording03,
   benefitIcon1,
@@ -75,7 +79,13 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  logoipsum1,
+  logoipsum2,
+  logoipsum4,
+  logoipsum3,
+  logoipsum5,
+];
 
 export const brainwaveServices = [
   "Photo generating",
