@@ -19,7 +19,7 @@ export const Gradient = () => {
   );
 };
 
-export const PhotChatMessage = () => {
+export const PhotoChatMessage = () => {
   return (
     <div
       className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl

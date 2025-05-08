@@ -138,13 +138,13 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Collaborate effortlessly with tools designed to enhance teamwork, streamline processes, and ensure data security.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.",
   },
   {
     id: "1",
