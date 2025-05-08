@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { cn } from "../lib/utils";
-import { Button } from "./Button";
 import { navigation } from "../constants";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { useLocation } from "react-router-dom";
 import brainwave from "../assets/brainwave.svg";
-import { HamburguerMenu } from "./design/Header";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { HamburguerMenu } from "../components/design/Header";
+import { Button } from "../components/Button";
 
 export const Header = () => {
   const location = useLocation();
