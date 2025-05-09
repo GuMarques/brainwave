@@ -15,8 +15,8 @@ import { useState } from "react";
 export const Services = () => {
   const [selectedIcon, setSelectedIcon] = useState(2);
   return (
-    <Section id="services">
-      <div className="container relative">
+    <Section id="how-to-use" shouldChangeUrl>
+      <div className="container relative pt-6">
         <Heading
           title="Generative AI made for creators."
           text="Brainwave unlocks the potential of AI-powered applications"

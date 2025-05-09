@@ -5,6 +5,8 @@ import { Services } from "./sections/Services";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import { Collaboration } from "./sections/Collaboration";
 import { Pricing } from "./sections/Pricing";
+import { Roadmap } from "./sections/Roadmap";
+import { Footer } from "./sections/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>

@@ -7,8 +7,8 @@ import { benefits } from "../constants";
 
 export const Benefits = () => {
   return (
-    <Section id="features">
-      <div className="container relative z-2">
+    <Section id="features" shouldChangeUrl>
+      <div className="container relative z-2 pt-6">
         <Heading
           title="Chat Smarter, Not Harder with Brainwave"
           className="md:max-w-md lg:max-w-2xl"

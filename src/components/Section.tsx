@@ -1,5 +1,6 @@
 import { cn } from "../lib/utils";
 import SectionSvg from "../assets/svg/SectionSvg";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export const Section = ({
   id,
@@ -8,6 +9,7 @@ export const Section = ({
   className,
   crossesOffset,
   customPaddings,
+  shouldChangeUrl = false,
 }: {
   id: string;
   crosses?: boolean;
@@ -15,10 +17,20 @@ export const Section = ({
   crossesOffset?: string;
   customPaddings?: string;
   children: React.ReactNode;
+  shouldChangeUrl?: boolean;
 }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <section
       id={id}
+      onMouseEnter={() => {
+        if (shouldChangeUrl)
+          navigate(`${location.pathname}#${id}`, {
+            replace: true,
+          });
+      }}
       className={cn(
         "relative",
         customPaddings ? customPaddings : "py-10 lg:py-16 xl:py-20",

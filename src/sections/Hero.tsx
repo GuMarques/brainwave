@@ -17,8 +17,9 @@ export const Hero = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
   return (
     <Section
-      id="hero"
       crosses
+      id="hero"
+      shouldChangeUrl
       customPaddings=""
       className="pt-[12rem] -mt-[5.25rem]"
     >
