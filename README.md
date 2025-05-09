@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Brainwave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brainwave is a Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite
+- React.js
+- Tailwind CSS
+- Typescript
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+👉 Beautiful Sections: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.
 
-- Configure the top-level `parserOptions` property like this:
+👉 Parallax Animations: Engaging effects triggered by mouse movement and scrolling
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+👉 Complex UI Geometry: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+👉 Latest UI Trends: Incorporates modern design elements such as bento grids.
+
+👉 Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
+
+👉 Responsive: Ensures seamless functionality and aesthetics across all devices
