@@ -4,6 +4,7 @@ import { Benefits } from "./sections/Benefits";
 import { Services } from "./sections/Services";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import { Collaboration } from "./sections/Collaboration";
+import { Pricing } from "./sections/Pricing";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
       <ButtonGradient />
     </>

@@ -222,9 +222,9 @@ export const pricing = [
     description: "AI chatbot, personalized recommendations",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Chat effortlessly with our friendly AI assistant.",
+      "Bring your ideas to life with stunning AI-generated images.",
+      "Get quick and clear summaries of your favorite videos.",
     ],
   },
   {
@@ -233,9 +233,9 @@ export const pricing = [
     description: "Advanced AI chatbot, priority support, analytics dashboard",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Enjoy deeper, smarter conversations with our advanced AI.",
+      "Transform your photos with cutting-edge AI enhancements.",
+      "Make the AI truly yours with customizable looks and features.",
     ],
   },
   {
@@ -244,9 +244,9 @@ export const pricing = [
     description: "Custom AI chatbot, advanced analytics, dedicated account",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Create captivating short videos with just a few words.",
+      "Unlock powerful insights with detailed user analytics.",
+      "Seamlessly integrate with external tools for real-time solutions.",
     ],
   },
 ];
